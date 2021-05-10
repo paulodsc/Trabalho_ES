@@ -1,5 +1,7 @@
 package Projeto;
 
-public class IPessoa {
+	public interface IPessoa {
+		public String getNome(); 	
+		public String  getCodPessoa();  
+	}
 
-}
